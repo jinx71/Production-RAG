@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Env
+.env
+
+# Data / generated
+data/
+eval/eval_report.json
+eval/eval_report.md
+eval/ragas_report.csv
