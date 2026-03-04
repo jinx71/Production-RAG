@@ -1,0 +1,44 @@
+{
+  "dataset": [
+    {
+      "question": "What three acceptance limits are used in cleaning validation and which one governs?",
+      "reference": "The dose-based limit (1/1000th of the minimum daily dose), the 10 ppm limit, and the visually clean criterion are all applied, and the most stringent of the three governs."
+    },
+    {
+      "question": "How many consecutive successful cleaning runs are required to validate a cleaning process?",
+      "reference": "A minimum of three consecutive successful cleaning runs is required."
+    },
+    {
+      "question": "What is the difference between swab sampling and rinse sampling?",
+      "reference": "Swab sampling targets worst-case hard-to-clean locations like welds and gaskets, while rinse sampling evaluates overall cleanliness of large surface areas and hard-to-swab geometries."
+    },
+    {
+      "question": "What is the 4:1 test accuracy ratio in calibration?",
+      "reference": "The standard used to calibrate must have an accuracy at least four times better than the tolerance of the instrument being calibrated."
+    },
+    {
+      "question": "Why is as-found calibration data important?",
+      "reference": "An out-of-tolerance as-found result triggers an impact assessment on all product manufactured since the last successful calibration."
+    },
+    {
+      "question": "What is the typical calibration interval for a new critical instrument?",
+      "reference": "A new critical instrument is typically assigned a six-month calibration interval, reviewed at least annually."
+    },
+    {
+      "question": "What do the letters in ALCOA stand for?",
+      "reference": "Attributable, Legible, Contemporaneous, Original, and Accurate."
+    },
+    {
+      "question": "Why must dynamic records be kept in their dynamic form rather than as a printout?",
+      "reference": "Dynamic records must be retained in dynamic form to preserve the full context including the audit trail and metadata; a printout alone is not sufficient."
+    },
+    {
+      "question": "What must a compliant audit trail record when GMP data is changed?",
+      "reference": "It must record the original entry, any change, the previous value, the reason where required, and the identity of the person making the change, with a secure time stamp."
+    },
+    {
+      "question": "How long must GMP batch records be retained?",
+      "reference": "At least one year beyond the expiry of the batch, or longer where local regulation requires."
+    }
+  ]
+}
