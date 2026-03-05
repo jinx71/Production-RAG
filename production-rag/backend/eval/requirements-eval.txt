@@ -1,0 +1,13 @@
+# Extra dependencies for the optional RAGAS-library evaluation (eval/run_ragas.py).
+# Kept separate from the serving image: heavy, and only needed for offline eval.
+#
+# IMPORTANT: RAGAS 0.2.x requires the langchain 0.3.x line. Install these in a
+# CLEAN virtualenv (separate from the serving venv) to avoid resolver conflicts
+# with langchain 1.x packages. This exact pinned set is verified to import cleanly.
+ragas==0.2.10
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-groq==0.2.5 
+datasets==3.2.0
+pandas==2.2.3
