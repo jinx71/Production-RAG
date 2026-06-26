@@ -1,0 +1,27 @@
+# dependencies
+**/node_modules/
+**/.venv/
+venv/
+
+# builds
+**/dist/
+
+# env
+**/.env
+
+# python
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+
+# data / generated
+backend/data/
+backend/eval/eval_report.json
+backend/eval/eval_report.md
+backend/eval/ragas_report.csv
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
